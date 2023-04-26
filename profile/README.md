@@ -33,6 +33,11 @@ After you've generated a service, you can implement server-side logic and client
 sylk run
 ```
 
+## Products
+- [Sylk CLI](https://github.com/sylk-build/sylk) - Main feature of sylk. Open source CLI to create, manage and deploy micro-services.
+- [Sylk Cloud](https://app.sylk.build) - Sylk Cloud Platform. Feature rich UI to create and manage remote projects.
+- [Sylk Docs](https://github.com/sylk-build/docusaurus-sylk) - Docusaurus plugin for generating documentation site for sylk's projects.
+
 ## Contributing
 If you're interested in contributing to Sylk, please see our contribution guidelines. We welcome contributions of all kinds, from bug reports to feature requests to code contributions.
 
