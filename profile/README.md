@@ -18,6 +18,9 @@ A feature-rich UI platform for managing your Protobuf and gRPC projects remotely
 ### [Sylk Docs](https://github.com/sylk-build/docusaurus-sylk)
 Our Docusaurus plugin to auto-generate documentation for your projects, making it easier for team collaboration.
 
+### [Sylk Examples](https://github.com/sylk-build/sylk-examples)
+Sylk examples projects for various use cases.
+
 ## Features
 
 ### Protobuf Management
