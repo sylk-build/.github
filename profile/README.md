@@ -1,45 +1,48 @@
-# Sylk
+# Sylk: Streamlining Protobuf Management Across Solutions
 
-Sylk is a free and open-source framework for developing microservices projects. It aims to simplify the process of creating distributed systems using the latest "Battle Tested" technologies.
+![Sylk Logo](https://s3.eu-central-1.amazonaws.com/assets.sylk.build/logo/sylk-logo-full.png) 
+![Downloads](https://static.pepy.tech/personalized-badge/sylk?period=total&units=international_system&left_color=brightgreen&right_color=grey&left_text=Downloads) 
+![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-Features
-Some of the key features of Sylk include:
+## Introduction
+Welcome to [**Sylk.build**](https://sylk.build/), an organization dedicated to offering a suite of tools aimed at simplifying Protocol Buffers (Protobuf) management. We provide a streamlined workflow for Protobuf serialization and deserialization, gRPC-based code generation, and schema evolution. Our products range from open-source CLIs to cloud-based solutions, each designed to accelerate your development cycle.
 
-HTTP2-based communication protocol
-- Protobuf-based message serialization and deserialization
-- gRPC-based code generation for services and clients
-- Support for schema evolution and compatibility
-- Command-Line Interface for generating resources, implementing server-side logic, and interacting with services
+## Our Products
+
+### [Sylk CLI](https://github.com/sylk-build/sylk)
+Our open-source Command-Line Interface (CLI) for creating, managing, and deploying protobuf-based architectures.
+
+### [Sylk Cloud](https://app.sylk.build)
+A feature-rich UI platform for managing your Protobuf and gRPC projects remotely.
+
+### [Sylk Docs](https://github.com/sylk-build/docusaurus-sylk)
+Our Docusaurus plugin to auto-generate documentation for your projects, making it easier for team collaboration.
+
+## Features
+
+### Protobuf Management
+- Protobuf Serialization & Deserialization
+- Schema Evolution & Compatibility
+  
+### Code and Service Generation
+- gRPC-based Code Generation for Services and Clients
+- HTTP2-based Communication Protocol
 
 ## Getting Started
-
-To get started with Sylk, you can use the [CLI](https://github.com/sylk-build/sylk) to create a new project and generate resources. Here's an example of how to create a new project:
+Start your journey with Sylk.build by diving into any of our products. For those new to our ecosystem, our CLI offers a quick way to jump in:
 
 ```sh
+# Create a New Project
 sylk new my-project
 cd my-project
+
+# Generate Protobuf Packages and Services
+sylk generate package hello/world/v1
+sylk generate service hello/world/v1/HelloWorldService
 ```
-
-Once you've created a project, you can use the CLI to generate resources, such as services and packages. Here's an example of how to generate a new package and service:
-
-```sh
-sylk generate package
-sylk generate service
-```
-
-After you've generated a service, you can implement server-side logic and client-side code to interact with the service.
-
-```sh
-sylk run
-```
-
-## Products
-- [Sylk CLI](https://github.com/sylk-build/sylk) - Main feature of sylk. Open source CLI to create, manage and deploy micro-services.
-- [Sylk Cloud](https://app.sylk.build) - Sylk Cloud Platform. Feature rich UI to create and manage remote projects.
-- [Sylk Docs](https://github.com/sylk-build/docusaurus-sylk) - Docusaurus plugin for generating documentation site for sylk's projects.
 
 ## Contributing
-If you're interested in contributing to Sylk, please see our contribution guidelines. We welcome contributions of all kinds, from bug reports to feature requests to code contributions.
+We invite you to contribute to the Sylk.build ecosystem. From bug reports and feature requests to code contributions, all are welcome. Please see our [contribution guidelines](#).
 
 ## License
-Sylk is licensed under the MIT License.
+Sylk.build is licensed under the MIT License, offering the freedom to use it in any of your projects, whether they're open-source, proprietary, or somewhere in between.
